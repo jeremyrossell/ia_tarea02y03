@@ -7,7 +7,20 @@ authors = [
     { name = "Jeremy Rossell", email = "114305494+jeremyrossell@users.noreply.github.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "contourpy>=1.4.0",
+    "cycler>=0.12.1",
+    "fonttools>=4.68.0",
+    "ia-tarea02y03>=0.1.0",
+    "kiwisolver>=1.5.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.5",
+    "packaging>=26.3",
+    "pillow>=13.0.0",
+    "pyparsing>=3.3.3",
+    "python-dateutil>=4.0.0",
+    "tzdata>=2026.6",
+]
 
 [project.scripts]
 ia-tarea02y03 = "ia_tarea02y03:main"
